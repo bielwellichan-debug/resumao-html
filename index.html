@@ -6,7 +6,26 @@
     <meta name="author" content="Gabriel Tavares">
     <meta name="description" content="Resumos das aulas de HTML e CSS">
     <meta name="keywords" content="html5, css, tecnologia">
-    <title>Resumo das aulas de HTML</title>
+    <title>Resumo de Border Radius</title>
+
+    <style>
+        #radius{
+            background-color: orange;
+            height: 200px;
+            width: 200px;
+            margin: 50px auto;
+
+            border-radius: 50px 100px / 100px 50px;
+            /* 1º Eixo X / 2º Eixo Y */
+
+            /* border-top-left-radius: 100px 50px; */
+            /* 1º Eixo X 2º Eixo Y */
+            /* border-top-right-radius: 50px 100px; */
+
+            /* border-radius: 50px 10px 100px 0px; */
+            /* Cima, direita, baixo, esquerda */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -33,12 +52,19 @@
                 <li>
                     <a href="./pages/tabelas.html">Tabelas</a>
                 </li>
+                <li>
+                    <a href="./pages/border-radius.html">Border Radius</a>
+                </li>
 
             </ul>
         </nav>
     </header>
     <main>
         
+        <h1>CSS Efeitos</h1>
+
+        <div id="radius"></div>
+
     </main>
     <footer>
 
