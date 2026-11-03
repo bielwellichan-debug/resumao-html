@@ -20,3 +20,39 @@
 .texto-tres{
     font-family: 'Casino';
 }
+
+nav ul{
+    list-style: none;
+    height: 0;
+}
+
+nav ul:hover{
+    height: 100%;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+
+    background-color: beige;
+}
+
+#menu-lista{
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+#lista-menu:hover #menu-lista{
+    height: 600px;
+    width: 100vh;
+}
