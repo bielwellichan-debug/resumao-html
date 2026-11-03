@@ -9,32 +9,32 @@
     font-style: italic;
 }
 
-.texto-um{
+.texto-um {
     font-family: 'Roboto';
 }
 
-.texto-dois{
+.texto-dois {
     font-family: 'Montserrat';
 }
 
-.texto-tres{
+.texto-tres {
     font-family: 'Casino';
 }
 
-nav ul{
+nav ul {
     list-style: none;
     height: 0;
 }
 
-nav ul:hover{
+nav ul:hover {
     height: 100%;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     width: 100px;
     height: 25px;
@@ -46,13 +46,13 @@ nav ul li{
     background-color: beige;
 }
 
-#menu-lista{
+#menu-lista {
     height: 0px;
     overflow: hidden;
     transition: height 0.5s;
 }
 
-#lista-menu:hover #menu-lista{
+#lista-menu:hover #menu-lista {
     height: 600px;
     width: 100vh;
 }
